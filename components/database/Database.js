@@ -1,0 +1,107 @@
+export const COLOURS = {
+  white: "#ffffff",
+  black: "#000000",
+  dark: "#1a202c",
+  green: "#00AC76",
+  red: "#C04345",
+  blue: "#0043F9",
+  teal: "teal",
+  backgroundLight: "#F0F0F3",
+  backgroundMedium: "#B9B9B9",
+  backgroundDark: "#1a202c",
+};
+
+export const Items = [
+  {
+    id: 1,
+    category: "product",
+    colors: ["Red", "Green", "Blue"],
+    sizes: ["Small", "Medium", "Large"],
+    productName: "Cute shorts",
+    productPrice: 449,
+    description:
+      "Women's shorts with bow and embroidery, elastic, high waist and ruffles",
+    isOff: true,
+    offPercentage: 10,
+    productImage: require("../database/images/products/cute1.png"),
+    isAvailable: true,
+    productImageList: [
+      require("../database/images/products/cute1.png"),
+      require("../database/images/products/cute2.png"),
+      require("../database/images/products/cute3.png"),
+    ],
+  },
+  {
+    id: 2,
+    category: "product",
+    colors: ["Red", "Green", "Blue"],
+    sizes: ["Small", "Medium", "Large"],
+    productName: "Harajuku Dress",
+    productPrice: 499,
+    description:
+      "Ruffle Lace Lace Women's Dress Pink Harajuku Dress Lolita Cosplay Lolita Dress",
+    isOff: false,
+    productImage: require("../database/images/products/dress1.png"),
+    isAvailable: true,
+    productImageList: [
+      require("../database/images/products/dress1.png"),
+      require("../database/images/products/dress2.png"),
+      require("../database/images/products/dress3.png"),
+    ],
+  },
+  {
+    id: 3,
+    category: "accessory",
+    colors: ["Red", "Green", "Blue"],
+    sizes: ["Small", "Medium", "Large"],
+    productName: "Dress in Lolita style",
+    productPrice: 299,
+    description:
+      "Fabric material: synthetic polyester (polyester fiber) Suitable age: youth (18-25 years old) Sleeve type: puff sleeve Size: one size Packing: 1 lolita dress Only the dress, no headwear, no rabbit bag, Note: One piece long sleeve dress. Without bags, hats, socks, shoes. And other accessories!",
+    isOff: true,
+    offPercentage: 18,
+    productImage: require("../database/images/accessories/lazur1.png"),
+    isAvailable: true,
+    productImageList: [
+      require("../database/images/accessories/lazur1.png"),
+      require("../database/images/accessories/lazur2.png"),
+      require("../database/images/accessories/lazur3.png"),
+    ],
+  },
+  {
+    id: 4,
+    category: "accessory",
+    colors: ["Red", "Green", "Blue"],
+    sizes: ["Small", "Medium", "Large"],
+    productName: "Japanese style dress",
+    productPrice: 299,
+    description:
+      "A-line dress for women, in Japanese style, with a sailor collar and a bow",
+    isOff: false,
+    productImage: require("../database/images/accessories/matros1.png"),
+    isAvailable: true,
+    productImageList: [
+      require("../database/images/accessories/matros1.png"),
+      require("../database/images/accessories/matros2.png"),
+      require("../database/images/accessories/matros3.png"),
+    ],
+  },
+  {
+    id: 5,
+    category: "accessory",
+    colors: ["Red", "Green", "Blue"],
+    sizes: ["Small", "Medium", "Large"],
+    productName: "Polo Shirts",
+    productPrice: 149,
+    description:
+      "Embroidered Bear Polo Shirts Women Short Sleeve Cotton T Shirt Kawaii Cute Tee Shirt Vintage Loose Oversize Tee For Teenagers",
+    isOff: false,
+    productImage: require("../database/images/accessories/tshirt1.png"),
+    isAvailable: false,
+    productImageList: [
+      require("../database/images/accessories/tshirt1.png"),
+      require("../database/images/accessories/tshirt2.png"),
+      require("../database/images/accessories/tshirt3.png"),
+    ],
+  },
+];
